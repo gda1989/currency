@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "currency"
+include ':app'
+include ':sources:core'
+include ':sources:core_api'
+include ':sources:core_impl'
+include ':sources:ui:main'
+include ':sources:data:database'
+include ':sources:data:net'
+include ':sources:ui:pages'
+include ':sources:ui:sorting'
+include ':sources:ui:view_utils'

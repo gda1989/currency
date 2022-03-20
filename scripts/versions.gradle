@@ -1,0 +1,26 @@
+ext {
+    retrofitVersion = '2.9.0'
+    okHttpVersion = '4.3.1'
+    daggerVersion = '2.41'
+    jacksonKotlinVersion = '2.13.1'
+    roomVersion = "2.4.2"
+    coroutinesVersion = "1.6.0"
+
+    dagger = "com.google.dagger:dagger:$daggerVersion"
+    daggerKapt = "com.google.dagger:dagger-compiler:$daggerVersion"
+
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    retrofitJsonConverter = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    retrofitJacksonConverter = "com.squareup.retrofit2:converter-jackson:$retrofitVersion"
+    retrofitJacksonModule = "com.fasterxml.jackson.module:jackson-module-kotlin:$jacksonKotlinVersion"
+
+    okHttp = "com.squareup.okhttp3:okhttp:$okHttpVersion"
+    okHttpLogging = "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
+
+    room = "androidx.room:room-runtime:$roomVersion"
+    roomCompiler = "androidx.room:room-compiler:$roomVersion"
+    roomKtx = "androidx.room:room-ktx:$roomVersion"
+
+    coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
+    coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+}
