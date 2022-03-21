@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff">
+    android:background="@color/abs_white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_gravity="center_vertical"
@@ -13,6 +13,8 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:textColor="@color/c_063031"
+            android:textSize="16sp"
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -21,6 +23,8 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:textColor="@color/c_063031"
+            android:textSize="16sp"
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,12 +43,14 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2">
 
             <RadioButton
+                android:textColor="@color/c_063031"
                 android:id="@+id/rb_a_to_z"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Обычный порядок" />
 
             <RadioButton
+                android:textColor="@color/c_063031"
                 android:id="@+id/rb_z_to_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,12 +67,14 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <RadioButton
+                android:textColor="@color/c_063031"
                 android:id="@+id/rb_0_to_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="По возрастанию" />
 
             <RadioButton
+                android:textColor="@color/c_063031"
                 android:id="@+id/rb_9_to_0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

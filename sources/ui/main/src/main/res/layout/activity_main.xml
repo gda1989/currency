@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main_fragment_box"
-    android:background="@color/abs_white"
+    android:background="@color/c_116062"
     tools:context="com.example.main.MainActivity">
 
     <androidx.appcompat.widget.AppCompatSpinner
+       android:backgroundTint="@color/abs_white"
         android:id="@+id/base_currency_block"
         android:layout_width="0dp"
         android:layout_height="80dp"
@@ -17,12 +18,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
-        android:background="#ee45ab"
+        android:background="@color/c_116062"
         android:id="@+id/sorting_block"
         android:layout_width="80dp"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_sort"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+
+    </FrameLayout>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/pager"
@@ -43,7 +52,10 @@
         app:layout_constraintTop_toTopOf="@+id/pager" />
 
     <com.google.android.material.tabs.TabLayout
-        app:tabTextColor="@color/abs_black"
+        app:tabSelectedTextColor="@color/abs_white"
+        app:tabBackground="@color/c_116062"
+        app:tabTextColor="@color/c_30d5c8"
+        app:tabIndicatorColor="@color/abs_white"
         android:id="@+id/tabs"
         android:layout_width="0dp"
         android:layout_height="80dp"

@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.core.DataProvidersFactory
 import com.example.core.dto.Currency
 import com.example.core_api.mediators.AppWithFacade

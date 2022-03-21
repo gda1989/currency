@@ -2,7 +2,7 @@
 <resources>
     <color name="abs_white">#fff</color>
     <color name="abs_black">#000</color>
-    <color name="c_cacaca">#acacac</color>
     <color name="c_30d5c8">#30D5C8</color>
     <color name="c_116062">#116062</color>
+    <color name="c_063031">#063031</color>
 </resources>
